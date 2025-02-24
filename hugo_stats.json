@@ -1,22 +1,30 @@
 {
   "htmlElements": {
     "tags": [
+      "a",
       "body",
-      "code",
+      "div",
+      "footer",
+      "h1",
+      "h2",
+      "h3",
       "head",
+      "header",
       "html",
+      "img",
       "link",
+      "main",
       "meta",
-      "noscript",
+      "nav",
       "p",
       "script",
-      "style",
       "title"
     ],
     "classes": [
-      "home",
-      "single"
+      "social-links"
     ],
-    "ids": null
+    "ids": [
+      "healthy-living-for-a-new-india"
+    ]
   }
 }

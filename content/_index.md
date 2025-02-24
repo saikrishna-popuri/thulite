@@ -1,9 +1,8 @@
 ---
-title: "Thulite"
-description: "Thulite is a web framework designed for speed, security, and SEO — all powered by Hugo and npm."
-date: 2020-04-17T12:18:10+00:00
-lastmod: 2020-04-17T12:18:10+00:00
+title: "Health Sutra"
 draft: false
 ---
+## Healthy living for a new India
+Rediscover the secret of healthy living with Health Sutra. Our Cereal Flakes, Biscuits, Idly & Upma rawa & Instant Porridge — bring ancient nutrition to your family’s table every day.
 
-This line is from `content/_index.md` :rocket:
+![Millet Breakfast](/images/HS_Logo.png)

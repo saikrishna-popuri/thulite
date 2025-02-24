@@ -1,7 +1,10 @@
 # Hugo
-title = "My Thulite project"
-description = "Congrats on setting up a new Thulite project!"
-images = ["cover.png"]
+title = "Health Sutra"
+description = "Rediscover the secret of healthy living with millet-rich breakfast and snack foods."
+images = ["images/HS_Logo.png"]
+custom_css = ["css/style.css"]
 
 [social]
-  twitter = "thuliteio"
+  instagram = "healthsutraofficial"
+  twitter = "urhealthsutra"
+  facebook = "healthsutraofficial"
