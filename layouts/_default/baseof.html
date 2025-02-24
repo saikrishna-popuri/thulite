@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ .Title }} | Health Sutra</title>
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+  <header>
+    <h1>Health Sutra</h1>
+    <nav>
+      <a href="/">Home</a>
+      <a href="/about/">About</a>
+      <a href="/products/">Products</a>
+      <a href="/contact/">Contact</a>
+    </nav>
+  </header>
+  <main>
+    {{ block "main" . }}{{ .Content }}{{ end }}
+  </main>
+  <footer>
+    <p> Reach us on +91 733 734 2200 and care@healthsutra.in. We would love your feedback</p>
+    <p>© 2025 Health Sutra</p>
+    <div class="social-links">
+      <h3>Follow Us</h3>
+      {{ with .Site.Params.social }}
+        {{ if .twitter }}
+          <a href="https://twitter.com/{{ .twitter }}" target="_blank">Twitter</a>
+        {{ end }}
+        {{ if .facebook }}
+          <a href="https://facebook.com/{{ .facebook }}" target="_blank">Facebook</a>
+        {{ end }}
+        {{ if .instagram }}
+          <a href="https://instagram.com/{{ .instagram }}" target="_blank">Instagram</a>
+        {{ end }}
+      {{ end }}
+    </div>
+  </footer>
+</body>
+</html>
