@@ -3,28 +3,41 @@
     "tags": [
       "a",
       "body",
+      "code",
       "div",
       "footer",
-      "h1",
       "h2",
       "h3",
       "head",
       "header",
       "html",
       "img",
+      "li",
       "link",
       "main",
       "meta",
       "nav",
       "p",
       "script",
-      "title"
+      "section",
+      "strong",
+      "title",
+      "ul"
     ],
     "classes": [
+      "farmer-story",
+      "footer",
+      "header",
+      "hero",
+      "hero-text",
+      "logo",
+      "main",
+      "nav",
       "social-links"
     ],
     "ids": [
-      "healthy-living-for-a-new-india"
+      "fortify-your-family",
+      "our-mission"
     ]
   }
 }
